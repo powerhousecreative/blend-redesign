@@ -8,9 +8,6 @@
 
 	<!-- GOOGLE FONTS -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,800,700,600' rel='stylesheet' type='text/css'>
-	
-	<!-- ICON FONTS -->
-<!-- 	<link href="https://file.myfontastic.com/3yf42wjyf9dhd4ynVMnS27/icons.css" rel="stylesheet"> -->
 
 	<!--STYLESHEETS-->
 	<link href="http://vjs.zencdn.net/5.7.1/video-js.css" rel="stylesheet">

@@ -64,7 +64,7 @@ h1 {
 	font-size: 24px;
 }
 
-h1.heading-sm {
+.heading-sm {
 	font-size: 14px;
 	font-weight: 800;
 	letter-spacing: 2px;
@@ -76,7 +76,7 @@ h2 {
 	font-weight: 400;
 }
 
-h2.heading-lg {
+.heading-lg {
 	font-size: 24px;
 	font-weight: 700;
 	letter-spacing: -1.5px;
@@ -140,7 +140,7 @@ a {
 }
 
 @media (min-width: 30em) {
-	h1, h2.heading-lg {
+	h1, .heading-lg {
 		font-size: 30px;
 	}
 	h2 {
@@ -155,7 +155,7 @@ a {
 	h2 {
 		font-size: 20px;
 	}
-	h2.heading-lg {
+	.heading-lg {
 		font-size: 36px;
 	}
 }
@@ -1272,7 +1272,7 @@ html.remodal-is-locked {
 
 .modal-footer {
 	background-color: #fff;
-	padding: 15px;
+	padding: 20px;
 	text-align: right;
 }
 
@@ -2392,6 +2392,7 @@ footer .copyright li:last-child {
 /* SERVICES & PRICING
 /*==============*/
 
+/* Services */
 .service div {
 	padding: 0 15px 50px 15px;
 }
@@ -2478,6 +2479,75 @@ footer .copyright li:last-child {
 	}
 }
 
+/* Services Modals */
+.services-modal .modal-content {
+	max-width: 585px;
+	margin: 0 auto;
+	padding: 0 15px;
+	text-align: left;
+}
+.services-modal .modal-footer {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.services-modal .heading-sm {
+	display: block;
+	margin-bottom: 15px;
+}
+.services-modal h5 {
+	margin-bottom: 15px;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+}
+.services-modal h6 {
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.services-modal p {
+	color: #72767A;
+}
+.service-category {
+	margin: 45px 0;
+}
+.service-category ul {
+	text-align: center;
+}
+.service-category li img {
+	margin-bottom: 15px;
+}
+.service-category li {
+	margin-bottom: 40px;
+}
+.service-category ul:last-of-type li:last-of-type {
+	margin-bottom: 0;
+}
+
+@media (min-width: 23.75em) { /* 380px */
+	.services-modal h6 {
+		width: 130px;
+	}
+	.service-category li {
+		display: inline-block;
+		margin-bottom: 0;
+	}
+	.service-category li:nth-child(even) {
+		margin-left: -4px;
+		padding-left: 30px;
+	}
+	.service-category li:nth-child(odd) {
+		padding-right: 30px;
+		border-right: 1px solid #E4E6E7;
+	}
+	.service-category ul:first-of-type li {
+		padding-bottom: 30px;
+		border-bottom: 1px solid #E4E6E7;
+	}
+	.service-category ul:last-of-type li {
+		padding-top: 30px;
+	}
+}
 
 
 

@@ -16,7 +16,7 @@
 						</div>
 						<div class="row">
 							<div class="col fade-in fade-in-1">
-								<a href="#" class="btn btn-light btn-cta" data-remodal-target="modal">get a quote</a>
+								<a href="#" class="btn btn-light btn-cta" data-remodal-target="cta-modal">get a quote</a>
 							</div>
 						</div>
 					</div>

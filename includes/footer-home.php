@@ -4,7 +4,7 @@
 				<div class="row">
 					<div class="col fade-in fade-in-1">
 						<h3>Interested in starting a project with us?</h3>
-						<a href="#" data-remodal-target="modal" class="btn btn-dark btn-cta">get a quote</a>
+						<a href="#" data-remodal-target="cta-modal" class="btn btn-dark btn-cta">get a quote</a>
 					</div>
 				</div>
 			</div>
@@ -66,7 +66,7 @@
 	</div>
 	
 	<!-- START GET QUOTE MODAL -->
-	<div class="remodal" data-remodal-id="modal">
+	<div class="remodal" data-remodal-id="cta-modal">
 		<a data-remodal-action="close" class="remodal-close">
 			<i class="icon-close"></i>
 		</a>
