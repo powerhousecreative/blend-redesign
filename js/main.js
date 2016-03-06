@@ -93,11 +93,11 @@ $(document).scroll(function () {
 	}
 });
 
-// $(function() {
-// 	setTimeout(function() {
-// 		$('.fade-in').addClass('fade-in-show');
-// 	}, 500);
-// });
+$(function() {
+	setTimeout(function() {
+		$('.fade-in').addClass('fade-in-show');
+	}, 500);
+});
 
 var $animation_elements = $('.fade-in');
 var $window = $(window);
@@ -160,8 +160,3 @@ $(window).load(function(){
 		 return false;
 	}); 
 });
-
-
-
-
-

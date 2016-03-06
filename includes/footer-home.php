@@ -66,7 +66,7 @@
 	</div>
 	
 	<!-- START GET QUOTE MODAL -->
-	<div class="remodal" data-remodal-id="cta-modal">
+	<div class="remodal" data-remodal-id="cta-modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
 		<a data-remodal-action="close" class="remodal-close">
 			<i class="icon-close"></i>
 		</a>

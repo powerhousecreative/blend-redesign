@@ -849,6 +849,7 @@ textarea:focus:invalid {
 	display: inline-block;
 	padding: 0;
 	background-color: transparent;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1912,17 +1913,18 @@ footer .copyright li:last-child {
 	color: #fff !important;
 	text-align: center;
 	line-height: 71px;
+	transition: all 0.25ms ease-in-out;
 }
 #home-page-intro .play-btn:hover {
 	background-color: rgba(229,255,0,.85);
 }
 #home-page-intro .icon-play {
 	position: relative;
-	right: -2px;
+	right: -1px;
 	font-size: 16px;
-	transition: all 0.1s ease-in-out;
 }
 #home-page-intro .play-btn:hover .icon-play {
+	right: -2px;
 	font-size: 20px;
 }
 #home-page-intro h1 {
@@ -2046,6 +2048,8 @@ footer .copyright li:last-child {
 		position:absolute;
 		left: 50%;
 		color: #fff;
+		font-size: 12px;
+		font-weight: 600;
 		opacity: 0;
 		-webkit-transform: scaleX(0);
 		-moz-transform: scaleX(0);
@@ -2058,7 +2062,7 @@ footer .copyright li:last-child {
 		cursor: pointer;
 	}
 	#mouse-icon:hover:before {
-		margin-top: -30px;
+		margin-top: -28px;
 		opacity: 1;
 		-webkit-transform: scaleX(1);
 		-moz-transform: scaleX(1);

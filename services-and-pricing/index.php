@@ -32,7 +32,7 @@
 									<i class="icon icon-pantone"></i>
 									<h4>Engaging Design</h4>
 									<p>Owing a computer is almost essential in today’s world. With the introduction of the internet and the convenience of email as a method of communication.</p>
-									<a href="javascript:void(0);" class="text-link" data-remodal-target="first-modal">Learn More</a>
+									<a href="javascript:void(0);" class="text-link" id="first-modal-link" data-remodal-target="service-modal">Learn More</a>
 								</div>
 							</li>
 							<li class="service">
@@ -40,7 +40,7 @@
 									<i class="icon icon-code"></i>
 									<h4>Software Dev</h4>
 									<p>Owing a computer is almost essential in today’s world. With the introduction of the internet and the convenience of email as a method of communication, it’s easy to see why most people want to have a computer in their home or office.</p>
-									<a href="javascript:void(0);" class="text-link" data-remodal-target="second-modal">Learn More</a>
+									<a href="javascript:void(0);" class="text-link" id="second-modal-link" data-remodal-target="service-modal">Learn More</a>
 								</div>
 							</li>
 							<li class="service">
@@ -48,7 +48,7 @@
 									<i class="icon icon-video"></i>
 									<h4>Video Content</h4>
 									<p>Owing a computer is almost essential in today’s world. With the introduction of the internet and the convenience of email as a method of communication, it’s easy to see why most people want to have a computer in their home or office.</p>
-									<a href="javascript:void(0);" class="text-link" data-remodal-target="third-modal">Learn More</a>
+									<a href="javascript:void(0);" class="text-link" id="third-modal-link" data-remodal-target="service-modal">Learn More</a>
 								</div>
 							</li>
 							<li class="service">
@@ -56,7 +56,7 @@
 									<i class="icon icon-brand-dna"></i>
 									<h4>Brand DNA</h4>
 									<p>Owing a computer is almost essential in today’s world. With the introduction of the internet and the convenience of email as a method of communication, it’s easy to see why most people want to have a computer in their home or office.</p>
-									<a href="javascript:void(0);" class="text-link" data-remodal-target="forth-modal">Learn More</a>
+									<a href="javascript:void(0);" class="text-link" id="forth-modal-link" data-remodal-target="service-modal">Learn More</a>
 								</div>
 							</li>
 							<li class="service">
@@ -64,7 +64,7 @@
 									<i class="icon icon-graphics"></i>
 									<h4>Graphics</h4>
 									<p>Owing a computer is almost essential in today’s world. With the introduction of the internet and the convenience of email as a method of communication, it’s easy to see why most people want to have a computer in their home or office.</p>
-									<a href="javascript:void(0);" class="text-link" data-remodal-target="fifth-modal">Learn More</a>
+									<a href="javascript:void(0);" class="text-link" id="fifth-modal-link" data-remodal-target="service-modal">Learn More</a>
 								</div>
 							</li>
 							<li class="service">
@@ -72,7 +72,7 @@
 									<i class="icon icon-experience"></i>
 									<h4>Experiences</h4>
 									<p>Owing a computer is almost essential in today’s world. With the introduction of the internet and the convenience of email as a method of communication, it’s easy to see why most people want to have a computer in their home or office.</p>
-									<a href="javascript:void(0);" class="text-link" data-remodal-target="sixth-modal">Learn More</a>
+									<a href="javascript:void(0);" class="text-link" id="sixth-modal-link" data-remodal-target="service-modal">Learn More</a>
 								</div>
 							</li>
 							<li class="service">
@@ -80,7 +80,7 @@
 									<i class="icon icon-wacom"></i>
 									<h4>Logo Design</h4>
 									<p>Owing a computer is almost essential in today’s world. With the introduction of the internet and the convenience of email as a method of communication, it’s easy to see why most people want to have a computer in their home or office.</p>
-									<a href="javascript:void(0);" class="text-link" data-remodal-target="seventh-modal">Learn More</a>
+									<a href="javascript:void(0);" class="text-link" id="seventh-modal-link"data-remodal-target="service-modal">Learn More</a>
 								</div>
 							</li>
 							<li class="service">
@@ -88,7 +88,7 @@
 									<i class="icon icon-animation"></i>
 									<h4>Animation</h4>
 									<p>Owing a computer is almost essential in today’s world. With the introduction of the internet and the convenience of email as a method of communication, it’s easy to see why most people want to have a computer in their home or office.</p>
-									<a href="javascript:void(0);" class="text-link" data-remodal-target="eight-modal">Learn More</a>
+									<a href="javascript:void(0);" class="text-link" id="eight-modal-link" data-remodal-target="service-modal">Learn More</a>
 								</div>
 							</li>
 						</ul>
@@ -114,6 +114,35 @@
 		</div>
 		<!-- END SERVICES & PRICING  -->
 
-<?php require_once("service-modals.php"); ?>
+		<!-- START SERVICES MODAL -->
+		<div class="remodal services-modal" data-remodal-id="service-modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<a data-remodal-action="close" class="remodal-close">
+				<i class="icon-close"></i>
+			</a>
+			<div class="modal-header">
+				<h3></h3>
+				<span class="divider"></span>
+				<p></p>
+			</div>
+			<div class="modal-content">
+				<span class="heading-sm">Summary</span>
+				<p></p>
+				<div class="service-category">
+					<ul>
+						<li class="category-1"></li>
+						<li class="category-2"></li>
+					</ul>
+					<ul>
+						<li class="category-3"></li>
+						<li class="category-4"></li>
+					</ul>
+				</div>
+				<h5>Prices starting at <strong>$1Million</strong>. Deal with it.</h5>
+			</div>
+			<div class="modal-footer">
+				<button type="submit" class="btn btn-dark">Get a quote</button>
+			</div>
+		</div>
+		<!-- END SERVICES MODAL -->
 
 <?php require_once("../includes/footer.php"); ?>
