@@ -1,7 +1,7 @@
-// Service Modals
-var title = $('.services-modal .modal-header h3');
-var subTitle = $('.services-modal .modal-header p');
-var summaryDesc = $('.services-modal .modal-content p');
+// Service Modal Variables
+var title = $('#service-modal .modal-header h3');
+var subTitle = $('#service-modal .modal-header p');
+var summaryDesc = $('#service-modal .modal-content p');
 var firstCategory = $('.category-1');
 var secondCategory = $('.category-2');
 var thirdCategory = $('.category-3');

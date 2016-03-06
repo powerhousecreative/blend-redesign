@@ -119,28 +119,74 @@
 			<a data-remodal-action="close" class="remodal-close">
 				<i class="icon-close"></i>
 			</a>
-			<div class="modal-header">
-				<h3></h3>
-				<span class="divider"></span>
-				<p></p>
+			<!-- Service Modal -->
+			<div class="card-front" id="service-modal">
+				<div class="modal-header">
+					<h3></h3>
+					<span class="divider"></span>
+					<p></p>
+				</div>
+				<div class="modal-content">
+					<span class="heading-sm">Summary</span>
+					<p></p>
+					<div class="service-category">
+						<ul>
+							<li class="category-1"></li>
+							<li class="category-2"></li>
+						</ul>
+						<ul>
+							<li class="category-3"></li>
+							<li class="category-4"></li>
+						</ul>
+					</div>
+					<h5>Prices starting at <strong>$1Million</strong>. Deal with it.</h5>
+				</div>
+				<div class="modal-footer">
+					<a href="javascript:void(0);" class="btn btn-dark" id="flip-btn">Get a quote</a>
+				</div>
 			</div>
-			<div class="modal-content">
-				<span class="heading-sm">Summary</span>
-				<p></p>
-				<div class="service-category">
+			<!-- Quote Modal -->
+			<div class="card-back" id="quote-modal">
+				<div class="modal-header">
+					<h3>Tell us about your project</h3>
+					<span class="divider"></span>
+					<p>If you tell us a bit about your project we can contact you with more specific pricing information. We’re also always up to chat if you’d like to call us directly.</p>
 					<ul>
-						<li class="category-1"></li>
-						<li class="category-2"></li>
-					</ul>
-					<ul>
-						<li class="category-3"></li>
-						<li class="category-4"></li>
+						<li><a href="#">blend@weareblend.la</a></li>
+						<li>310.845.9655</li>
 					</ul>
 				</div>
-				<h5>Prices starting at <strong>$1Million</strong>. Deal with it.</h5>
-			</div>
-			<div class="modal-footer">
-				<button type="submit" class="btn btn-dark">Get a quote</button>
+				<form class="modal-form">
+					<div class="modal-content">
+						<div class="form-group required">
+							<input type="text" class="form-control" required placeholder="Full Name">
+						</div>
+						<div class="form-group required">
+							<input type="email" class="form-control" required placeholder="Email Address">
+						</div>
+						<div class="form-group required">
+							<input type="text" class="form-control" required placeholder="Company/Organization">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Phone Number">
+						</div>
+						<div class="form-group required">
+							<select class="form-control" required>
+								<option value="option1">Option1</option>
+								<option value="option2">Option2</option>
+								<option value="option3">Option3</option>
+								<option value="option4">Option4</option>
+								<option value="option5">Option5</option>
+							</select>
+						</div>
+						<div class="form-group required">
+							<textarea class="form-control" rows="6" required placeholder="Project Details"></textarea>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-dark"> Submit</button>
+					</div>
+				</form>
 			</div>
 		</div>
 		<!-- END SERVICES MODAL -->

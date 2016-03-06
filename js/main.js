@@ -79,20 +79,21 @@ $('#play-reel').click(function() {
 });
 
 //Intro Video Close/Pause on scroll
-var position = $('#home').offset();
+// var position = $('#home').offset();
 
-$(document).scroll(function () {
+// $(document).scroll(function () {
 
-	var y = $(this).scrollTop();
+// 	var y = $(this).scrollTop();
 
-	if (y >= position.top) {
-		$('.video-js')[0].player.pause().currentTime(0);
-		$('header').removeClass('transparent');
-		$('#intro-content').removeClass('transparent');
-		$('#intro-video-container').removeClass('is-active');
-	}
-});
+// 	if (y >= position.top) {
+// 		$('.video-js')[0].player.pause().currentTime(0);
+// 		$('header').removeClass('transparent');
+// 		$('#intro-content').removeClass('transparent');
+// 		$('#intro-video-container').removeClass('is-active');
+// 	}
+// });
 
+//Fade In in View
 $(function() {
 	setTimeout(function() {
 		$('.fade-in').addClass('fade-in-show');
@@ -159,4 +160,14 @@ $(window).load(function(){
 		 });
 		 return false;
 	}); 
+});
+
+//Services Modal Flip
+$('#flip-btn').click(function() {
+	$('.services-modal').addClass('flipped');
+});
+$('.remodal-close').click(function() {
+	setTimeout(function() {
+		$('.services-modal').removeClass('flipped');
+	}, 400);
 });

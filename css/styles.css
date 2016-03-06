@@ -872,15 +872,17 @@ textarea:focus:invalid {
 .btn:before {
 	content: '';
 	position: absolute;
-	top: -6px;
-	left: -6px;
-	height: calc(100% + 10px);
-	width: calc(100% + 10px);
-	color: #fff !important;
-}
-button.btn:before {
 	top: -5px;
 	left: -5px;
+	height: calc(100% + 8px);
+	width: calc(100% + 8px);
+	color: #fff !important;
+}
+.modal-footer .btn:before {
+	top: -5px;
+	left: -5px;
+	height: calc(100% + 10px);
+	width: calc(100% + 10px);
 }
 .btn.btn-cta:after, .text-link:after {
 	content: '>';
@@ -1102,6 +1104,7 @@ html.remodal-is-locked {
 	outline: 0;
 	background: transparent;
 	line-height: 35px;
+	z-index: 10;
 }
 .remodal-close:hover,
 .remodal-close:focus {
@@ -2155,7 +2158,7 @@ footer .copyright li:last-child {
 }
 .dash:after {
 	content:"";
-	left: 1px;
+	left: 0;
 	background-image: -webkit-linear-gradient(right, rgba(255,255,255,0.00) 2%, #88898B 100%);
 	background-image: -o-linear-gradient(right, rgba(255,255,255,0.00) 2%, #88898B 100%);
 	background-image: linear-gradient(to left, rgba(255,255,255,0.00) 2%, #88898B 100%);
@@ -2484,32 +2487,35 @@ footer .copyright li:last-child {
 }
 
 /* Services Modals */
-.services-modal .modal-content {
+.services-modal {
+	background: transparent;
+}
+#service-modal .modal-content {
 	max-width: 585px;
 	margin: 0 auto;
 	padding: 0 15px;
 	text-align: left;
 }
-.services-modal .modal-footer {
-	margin-bottom: 20px;
+#service-modal .modal-footer {
+	padding-bottom: 40px;
 	text-align: center;
 }
-.services-modal .heading-sm {
+#service-modal .heading-sm {
 	display: block;
 	margin-bottom: 15px;
 }
-.services-modal h5 {
+#service-modal h5 {
 	margin-bottom: 15px;
 	font-size: 16px;
 	font-weight: 500;
 	text-align: center;
 }
-.services-modal h6 {
+#service-modal h6 {
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.services-modal p {
+#service-modal p {
 	color: #72767A;
 }
 .service-category {
@@ -2529,11 +2535,9 @@ footer .copyright li:last-child {
 }
 
 @media (min-width: 23.75em) { /* 380px */
-	.services-modal h6 {
-		width: 130px;
-	}
 	.service-category li {
 		display: inline-block;
+		width: 160px;
 		margin-bottom: 0;
 	}
 	.service-category li:nth-child(even) {
@@ -2553,9 +2557,39 @@ footer .copyright li:last-child {
 	}
 }
 
-
-
-
+/* Services Modal Flip */
+.card-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+}
+.card-front,
+.card-back {
+	background: #fff;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	transition: all 0.2s ease-in-out;
+}
+.card-back {
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+.flipped .card-back {
+	opacity: 1;
+}
+.flipped .card-front {
+	opacity: 0;
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+.flipped .card-back {
+	-webkit-transform: rotateY(0);
+	transform: rotateY(0);
+}
 
 
 
