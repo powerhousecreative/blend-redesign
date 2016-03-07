@@ -107,7 +107,734 @@
 							<h2>All of our services can be purchased either al a carte or through a package structure. In addition to comprehensive packages, we also offer customizable options as well.</h2>
 						</div>
 					</div>
-					<div class="row"></div>
+					<div class="row">
+						<!-- START PRICING TABLE -->
+						<table class="pricing-table" id="PricingTable">
+							<caption class="visuallyhidden">Pricing and feature information for all Shopify plans
+							</caption>
+							<thead>
+								<tr>
+									<th scope="col">
+										<span class="visuallyhidden">Plan feature</span>
+									</th>
+									<th scope="col" id="p-0">
+										<p class="heading--4">Product Launch</p>
+										<p>All of our services can be purchased either al a carte or through a package structure.</p>
+									</th>
+									<th scope="col" id="p-1">
+										<p class="heading--4">Brand Launch</p>
+										<p>All of our services can be purchased either al a carte or through a package structure.</p>
+									</th>
+									<th scope="col" id="p-2">
+										<p class="heading--4">Start-Up Launch</p>
+										<p>All of our services can be purchased either al a carte or through a package structure.</p>
+									</th>
+									<th scope="col" id="p-3">
+										<p class="heading--4">Enterprise Marketing</p>
+										<p>All of our services can be purchased either al a carte or through a package structure.</p>
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row" id="f-monthly_price">
+										<span class="pricing-table__feature-name">
+										Monthly price
+										</span>
+									</th>
+									<td headers="p-0 f-monthly_price">
+										<span class="pricing-table__feature-value">
+										<span class="price"><span class="visuallyhidden">$7,000</span><span aria-hidden="true"><sup>$</sup><span class="price__number">7k</span></span>
+										</span>
+										</span>
+									</td>
+									<td headers="p-1 f-monthly_price">
+										<span class="pricing-table__feature-value">
+										<span class="price"><span class="visuallyhidden">$10,000</span><span aria-hidden="true"><sup>$</sup><span class="price__number">10k</span></span>
+										</span>
+										</span>
+									</td>
+									<td headers="p-2 f-monthly_price">
+										<span class="pricing-table__feature-value">
+										<span class="price"><span class="visuallyhidden">$17,500</span><span aria-hidden="true"><sup>$</sup><span class="price__number">17.5k</span></span>
+										</span>
+										</span>
+									</td>
+									<td headers="p-3 f-monthly_price">
+										<span class="pricing-table__feature-value">
+										<span class="price"><span class="visuallyhidden">$25,000</span><span aria-hidden="true"><sup>$</sup><span class="price__number">25k+</span></span>
+										</span>
+										</span>
+									</td>
+								</tr>
+							</tbody>
+							<tbody>
+								<tr>
+									<th scope="col" colspan="5">
+										<span class="heading--5 pricing-table__section-heading">
+										First Category
+										</span>
+									</th>
+								</tr>
+								<tr>
+									<th scope="row" id="f-storefront">
+										<span class="pricing-table__feature-name">
+											Brand DNA
+										</span>
+									</th>
+									<td headers="p-0 f-storefront">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-1 f-storefront">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-storefront">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-storefront">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-pos_login">
+										<span class="pricing-table__feature-name">
+											Logo Design
+										</span>
+									</th>
+									<td headers="p-0 f-pos_login">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-1 f-pos_login">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-pos_login">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-pos_login">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-facebook">
+										<span class="pricing-table__feature-name">
+											Consumer Insight
+										</span>
+									</th>
+									<td headers="p-0 f-facebook">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-1 f-facebook">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-facebook">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-facebook">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-pinterest">
+										<span class="pricing-table__feature-name">
+											Interactive Marketing Website
+										</span>
+									</th>
+									<td headers="p-0 f-pinterest">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-1 f-pinterest">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-pinterest">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-pinterest">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-twitter">
+										<span class="pricing-table__feature-name">
+											Photography
+										</span>
+									</th>
+									<td headers="p-0 f-twitter">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-1 f-twitter">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-twitter">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-twitter">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-buy_button">
+										<span class="pricing-table__feature-name">
+											Brand Video
+										</span>
+									</th>
+									<td headers="p-0 f-buy_button">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-1 f-buy_button">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-buy_button">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-buy_button">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-retail">
+										<span class="pricing-table__feature-name">
+											Inbound Marketing
+										</span>
+									</th>
+									<td headers="p-0 f-retail">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-1 f-retail">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-retail">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-retail">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+							</tbody>
+							<tbody>
+								<tr>
+									<th scope="col" colspan="5">
+										<span class="heading--5 pricing-table__section-heading">
+											Second Category
+										</span>
+									</th>
+								</tr>
+								<tr>
+									<th scope="row" id="f-no_fees">
+										<span class="pricing-table__feature-name">
+											Social Media Management
+										</span>
+									</th>
+									<td headers="p-0 f-no_fees">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-1 f-no_fees">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-no_fees">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-no_fees">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-external_fees">
+										<span class="pricing-table__feature-name">
+											Modular Brand Videos
+										</span>
+									</th>
+									<td headers="p-0 f-external_fees">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-1 f-external_fees">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-external_fees">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-external_fees">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+							</tbody>
+							<tbody>
+								<tr>
+									<th scope="col" colspan="5">
+										<span class="heading--5 pricing-table__section-heading">
+										Third Category
+										</span>
+									</th>
+								</tr>
+								<tr>
+									<th scope="row" id="f-skus">
+										<span class="pricing-table__feature-name">
+										Number of products
+										</span>
+									</th>
+									<td headers="p-0 f-skus">
+										<span class="pricing-table__feature-value">
+										Unlimited
+										</span>
+									</td>
+									<td headers="p-1 f-skus">
+										<span class="pricing-table__feature-value">
+										Unlimited
+										</span>
+									</td>
+									<td headers="p-2 f-skus">
+										<span class="pricing-table__feature-value">
+										Unlimited
+										</span>
+									</td>
+									<td headers="p-3 f-skus">
+										<span class="pricing-table__feature-value">
+										Unlimited
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-support">
+										<span class="pricing-table__feature-name">
+										24/7 support
+										</span>
+									</th>
+									<td headers="p-0 f-support">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-1 f-support">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-support">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-support">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-shipping">
+										<span class="pricing-table__feature-name">
+										<a href="/shipping">Shipping label discount</a>
+										</span>
+									</th>
+									<td headers="p-0 f-shipping">
+										<span class="pricing-table__feature-value">
+										Good
+										</span>
+									</td>
+									<td headers="p-1 f-shipping">
+										<span class="pricing-table__feature-value">
+										Good
+										</span>
+									</td>
+									<td headers="p-2 f-shipping">
+										<span class="pricing-table__feature-value">
+										Better
+										</span>
+									</td>
+									<td headers="p-3 f-shipping">
+										<span class="pricing-table__feature-value">
+										Best
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-order_creation">
+										<span class="pricing-table__feature-name">
+										Manual order creation
+										</span>
+									</th>
+									<td headers="p-0 f-order_creation">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-1 f-order_creation">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-order_creation">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-order_creation">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-website">
+										<span class="pricing-table__feature-name">
+										Website and blog
+										</span>
+									</th>
+									<td headers="p-0 f-website">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-1 f-website">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-website">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-website">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-storage">
+										<span class="pricing-table__feature-name">
+										File storage
+										</span>
+									</th>
+									<td headers="p-0 f-storage">
+										<span class="pricing-table__feature-value">
+										Unlimited
+										</span>
+									</td>
+									<td headers="p-1 f-storage">
+										<span class="pricing-table__feature-value">
+										Unlimited
+										</span>
+									</td>
+									<td headers="p-2 f-storage">
+										<span class="pricing-table__feature-value">
+										Unlimited
+										</span>
+									</td>
+									<td headers="p-3 f-storage">
+										<span class="pricing-table__feature-value">
+										Unlimited
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-discounts">
+										<span class="pricing-table__feature-name">
+										Discount codes
+										</span>
+									</th>
+									<td headers="p-0 f-discounts">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-1 f-discounts">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-2 f-discounts">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-discounts">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-gift_cards">
+										<span class="pricing-table__feature-name">
+										Gift cards
+										</span>
+									</th>
+									<td headers="p-0 f-gift_cards">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-1 f-gift_cards">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-2 f-gift_cards">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-gift_cards">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-reports">
+										<span class="pricing-table__feature-name">
+										Professional reports
+										</span>
+									</th>
+									<td headers="p-0 f-reports">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-1 f-reports">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-2 f-reports">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-reports">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-abandoned_checkouts">
+										<span class="pricing-table__feature-name">
+										Abandoned cart recovery
+										</span>
+									</th>
+									<td headers="p-0 f-abandoned_checkouts">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-1 f-abandoned_checkouts">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-2 f-abandoned_checkouts">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+									<td headers="p-3 f-abandoned_checkouts">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-reports_editing">
+										<span class="pricing-table__feature-name">
+										Advanced report builder
+										</span>
+									</th>
+									<td headers="p-0 f-reports_editing">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-1 f-reports_editing">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-2 f-reports_editing">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-3 f-reports_editing">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" id="f-real_time_shipping">
+										<span class="pricing-table__feature-name">
+										Real-time carrier shipping
+										</span>
+									</th>
+									<td headers="p-0 f-real_time_shipping">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-1 f-real_time_shipping">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-2 f-real_time_shipping">
+										<span class="pricing-table__feature-value">
+										<span class="visuallyhidden">No</span><span class="icon--not-in-plan" aria-hidden="true">–</span>
+										</span>
+									</td>
+									<td headers="p-3 f-real_time_shipping">
+										<span class="pricing-table__feature-value">
+											<span class="visuallyhidden">Yes</span>
+											<i class="icon-check"></i>
+										</span>
+									</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="5">
+										<div class="display--mobile plan-arrows" data-arrow-label="See {{plan}} plan">
+											<a data-ga-event="Pricing Table - Mobile Arrows" data-ga-action="Arrow click" class="plan-arrow link-scroll-to plan-arrow--prev" href="#PricingTable">See Unlimited plan</a>
+											<a data-ga-event="Pricing Table - Mobile Arrows" data-ga-action="Arrow click" class="plan-arrow link-scroll-to plan-arrow--next" href="#PricingTable">See Basic plan</a>
+										</div>
+										<p class="pricing-disclaimer">
+											Shopify collects sales taxes in states where it is required by law. Stated prices do not include these taxes.
+										</p>
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+						<!-- START PRICING TABLE -->
+					</div>
 				</div>
 			</section>
 			<!-- END PRICING -->
